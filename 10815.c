@@ -31,7 +31,7 @@ int binarySearch(int arr[], int size, int key){
         return 0;
 }
 
-int main(){
+int main(void){
     int N, M, result;
     int sanggeun[500000];
     int card[500000];
@@ -42,7 +42,7 @@ int main(){
     }
 
     scanf("%d", &M);
-    for(int j=0, j<M; j++){
+    for(int j=0; j<M; j++){
         scanf("%d", &card[j]);
     }
 
